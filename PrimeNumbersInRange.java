@@ -12,10 +12,10 @@ public class PrimeNumbersInRange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the start of the range: ");
+        System.out.print("Enter start of the range: ");
         int start = scanner.nextInt();
 
-        System.out.print("Enter the end of the range: ");
+        System.out.print("Enter end of the range: ");
         int end = scanner.nextInt();
 
         System.out.println("Prime numbers between " + start + " and " + end + ":");
